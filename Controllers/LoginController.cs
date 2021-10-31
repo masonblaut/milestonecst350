@@ -12,16 +12,20 @@ namespace Milestone.Controllers
 {
     public class LoginController : Controller
     {
-        // GET: /<controller>/
+        public IDataService DService { get; set; }
+
+        public LoginController(IDataService dService)
+        {
+            this.DService = dService;
+        }
+
         public IActionResult Index()
         {
             return View();
         }
         public IActionResult ProcessLogin(UserModel userModel)
         {
-            SecurityService securityService = new SecurityService();
-
-            if (securityService.IsValid(userModel))
+            if (DService.findUser(userModel))
             {
                 return View("LoginSuccess", userModel);
             }

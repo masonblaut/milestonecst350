@@ -12,16 +12,18 @@ namespace Milestone.Controllers
 {
     public class RegistrationController : Controller
     {
-        // GET: /<controller>/
+        public IDataService DService { get; set; }
+        public RegistrationController(IDataService dService)
+        {
+            this.DService = dService;
+        }
         public IActionResult Index()
         {
             return View();
         }
         public IActionResult ProcessRegistration(UserModel userModel)
         {
-            SecurityService securityService = new SecurityService();
-
-            if (securityService.CreateUser(userModel))
+            if (DService.createUser(userModel))
             {
                 return View("RegistrationSuccess", userModel);
             }

@@ -8827,11 +8827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\0D School\\CST-350\\MyFork\\Milestone.csproj",
+      "projectUniqueName": "D:\\C#workspace\\milestonecst350-master\\milestonecst350-master\\Milestone.csproj",
       "projectName": "Milestone",
-      "projectPath": "D:\\0D School\\CST-350\\MyFork\\Milestone.csproj",
+      "projectPath": "D:\\C#workspace\\milestonecst350-master\\milestonecst350-master\\Milestone.csproj",
       "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-      "outputPath": "D:\\0D School\\CST-350\\MyFork\\obj\\",
+      "outputPath": "D:\\C#workspace\\milestonecst350-master\\milestonecst350-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

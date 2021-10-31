@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Milestone.Service;
 
 namespace Milestone
 {
@@ -24,6 +25,9 @@ namespace Milestone
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Dependency Injection Point
+            services.AddTransient<IDataService, SecurityDA>();
+
             services.AddControllersWithViews();
 
             services.AddDbContext<Create>(options =>

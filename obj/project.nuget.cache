@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hLyy6MW1J08KAArI4CcPVmQQE5wjVgFInU5KFQ3V3CjHtP9YmqS+prWe/UrAf1JGvBpqwkvReaQiSzi4+sWqmg==",
+  "dgSpecHash": "mKPXEo1/HuYMvQSJbqNgqLgY5ir1jbwVTL+5YZaH7+zfTGT+rTITz3U0V7JOBBfKCwinfX4jj164tzyEOjuPzw==",
   "success": true,
-  "projectFilePath": "D:\\0D School\\CST-350\\MyFork\\Milestone.csproj",
+  "projectFilePath": "D:\\C#workspace\\milestonecst350-master\\milestonecst350-master\\Milestone.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROG\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ROG\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

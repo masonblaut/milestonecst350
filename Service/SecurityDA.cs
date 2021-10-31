@@ -7,7 +7,7 @@ using Milestone.Models;
 
 namespace Milestone.Service
 {
-    public class SecurityDA
+    public class SecurityDA : IDataService
     {
 
         string connectString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MilestoneDatabase;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
